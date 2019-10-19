@@ -4,7 +4,7 @@ const LinkedList = require('../src/linked-list');
 describe('LinkedList', () => {
     describe('#constructor', () => {
         const list = new LinkedList();
-
+        insertAt
         it('assign 0 to this.length', () => {
             expect(list.length).to.equal(0);
         })
